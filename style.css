@@ -1,15 +1,24 @@
 .introduction
 {
-	color: blue;
+	color: maroon;
 }
 body
+{
+	background-image: url("fond.jpg");
+	background-attachment: fixed;
+}
+header, footer
+{
+	text-align: center;
+}
 
 h1
 {
 	text-align: center;
 	font-size: 300%;
-	font-family: "Arial black";
+	font-family: "Arial black", serif;
 	font-weight: bold;
+	font-style: italic;
 	color: gray;
 	border: 4px blue double;
 	border-radius: 10px;
@@ -22,7 +31,8 @@ em
 }
 p
 {
+	max-width: 50%;
 	text-align: justify;
 	font-size: medium;
-	font-family: Arial;
+	font-family: Arial, serif;
 }
